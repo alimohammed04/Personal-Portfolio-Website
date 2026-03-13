@@ -17,12 +17,19 @@ window.addEventListener("load", function () {
         this.document.body.classList.remove("dark");
 
     // get projects data from json file 
-    fetch('../data/projects.json')
-        .then(response => response.json())
-        .then(result => result.projects)
-        .then(projects => {
-            fetchedProjects = projects;
+    fetch('./data/projects.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(result => {
+            fetchedProjects = result.projects;
             displayProjects();
+        })
+        .catch(error => {
+            console.error("Error loading projects:", error);
         });
 
 });
