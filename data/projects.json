@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Interactive Rating Component",
+      "type": "Frontend",
+      "category": "Components",
+      "description": "An interactive UI component built with HTML, CSS, and Vanilla JavaScript that demonstrates clean state management, DOM manipulation, and conditional rendering without relying on external frameworks.",
+      "technologies": ["HTML","CSS","JS"],
+      "image": "assets/images/projects/Interactive-Rating-Component.webp",
+      "demoUrl": "https://alimohammed04.github.io/Interactive-Rating-Component/",
+      "githubUrl": "https://github.com/alimohammed04/Interactive-Rating-Component"
+    },
+    {
+      "id": 2,
+      "title":  "To Do List App",
+      "type": "Frontend",
+      "category": "Web Apps",
+      "description": "A modern and responsive To Do List application built with React to help users add, edit, delete, and manage daily tasks efficiently.",
+      "technologies": ["HTML","CSS","Material UI","React"],
+      "image": "assets/images/projects/todo-list.webp",
+      "demoUrl": "https://todo-liisstt.netlify.app/",
+      "githubUrl": "https://github.com/alimohammed04/To-Do-List-App"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portofilio</title>
+    <link rel="stylesheet" href="css/base/reset.css">
+    <link rel="stylesheet" href="css/base/variables.css">
+    <link rel="stylesheet" href="css/base/global.css">
+
+    <!-- icon page  -->
+    <link rel="icon" type="image/png" href="assets/images/icons/portfolioIcon.png">
+
+    <!-- styling sections  -->
+
+    <link rel="stylesheet" href="./css/layout/footer.css">
+    <link rel="stylesheet" href="./css/layout/header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themes/dark.css">
+
+    <!-- font awesome librery  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font import  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <!-- this layer is show when user open nav bar in mobile  -->
+        <div class="overlay"></div>
+        <header>
+            <div class="container">
+                <a href="#"> &lt; Ali Alwaael /&gt;</a>
+                <nav>
+                    <!-- button to close nav in mobile  -->
+                    <button aria-label="close-drawer"><i class="fa-solid fa-x"></i></button>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="buttons">
+                    <button id="dark-mode" aria-label="Toggle dark mode">
+                        <i class="fa-regular fa-moon"></i>
+                    </button>
+                    <button id="mobile-button" aria-label="Toggle drawer">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero container">
+                <div class="image">
+                    <img src="assets/images/profile/Portfolio_Profile.webp" alt="CV Profile picture">
+                </div>
+                <h1>Ali Alwaael</h1>
+                <h2>.NET Full Stack Developer Intern</h2>
+                <p>I develop modern web applications using React, ASP.NET Core, Entity Framework, and SQL, with a focus
+                    on clean design, practical functionality, and continuous improvement.</p>
+                <div class="cv-buttons">
+                    <a href="assets/cv/YourName-CV.pdf" download class="Download-cv button"><i
+                            class="fa-solid fa-download"></i> Download CV</a>
+                    <a href="assets/cv/YourName-CV.pdf" target="_blank" class="view-cv button"><i
+                            class="fa-regular fa-eye"></i> View CV</a>
+                </div>
+            </section>
+            <section class="career-journey">
+                <div class="container">
+                    <h2>Career Journey</h2>
+                    <p>Growing from Frontend to Full Stack, one step at a time</p>
+                    <div class="careeres">
+                        <div class="career done">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Frontend</h3>
+                            <span>Current foucs</span>
+                        </div>
+                        <div class="line done"></div>
+                        <div class="career learning">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend</h3>
+                            <span>Learning</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="career goal">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h3>Full Stack</h3>
+                            <span>Goal</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about container" id="about">
+                <h2>About Me</h2>
+                <p>I'm an aspiring .NET Full Stack Developer passionate about building responsive, user-focused web
+                    applications. With a foundation in React, ASP.NET Core, Entity Framework, and SQL, I focus on
+                    creating clean, practical, and maintainable solutions while continuously improving my frontend and
+                    backend skills.</p>
+                <div class="education">
+                    <h3><span class="icon"><i class="fa-solid fa-graduation-cap"></i></span>Education</h3>
+                    <h4>Bachelor of Science in Computer Information Systems</h4>
+                    <p>University of Jordan</p>
+                    <span>Graduated 2026</span>
+                    <span>GPA : 3.39 / 4.00</span>
+                </div>
+            </section>
+            <section class="skills-section container" id="skills">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with to bring ideas to life</p>
+                <div class="front-end skills-sec">
+                    <h3>Frontend</h3>
+                    <ul class="skills">
+                        <li class="expert">HTML5</li>
+                        <li class="expert">CSS3</li>
+                        <li class="expert">JavaScript</li>
+                        <li class="advanced">React</li>
+                        <li class="intermediate">Tailwind CSS</li>
+                        <li class="intermediate">SASS</li>
+                        <li class="intermediate">Jquery</li>
+                        <li class="intermediate">Typescript</li>
+                    </ul>
+                </div>
+                <div class="backend skills-sec">
+                    <h3>Backend</h3>
+                    <ul class="skills">
+                        <li class="intermediate">C#</li>
+                        <li class="intermediate">SQL</li>
+                        <li class="intermediate">.NET Core </li>
+                        <li class="intermediate">Rest APIs</li>
+                    </ul>
+                </div>
+                <div class="tools skills-sec">
+                    <h3>Tools & Workflow</h3>
+                    <ul class="skills">
+                        <li class="expert">git / gitgub</li>
+                        <li class="advanced">Problem solving</li>
+                        <li class="intermediate">IIS</li>
+                    </ul>
+                </div>
+                <ul class="markers">
+                    <li>Expert</li>
+                    <li>Advanced</li>
+                    <li>Intermediate</li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <ul class="category-bar">
+                        <li category-type="All" class="selected">All</li>
+                        <li category-type="Landing Pages">Landing Pages</li>
+                        <li category-type="Dashboards">Dashboards</li>
+                        <li category-type="Web Apps">Web Apps</li>
+                        <li category-type="Components">Components</li>
+                    </ul>
+                    <div class="project-container">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <div class="email">
+                <a href="mailto:awaael21@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    awaael21@gmail.com</a>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/alimohammed04" aria-label="GitHub profile" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alialwaael/" aria-label="LinkedIn profile" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p>Available for freelance and full-time opportunities</p>
+            <p>&copy; 2026 Ali Alwaael .All right reserved.</p>
+
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
