@@ -21,6 +21,17 @@
       "image": "assets/images/projects/todo-list.webp",
       "demoUrl": "https://todo-liisstt.netlify.app/",
       "githubUrl": "https://github.com/alimohammed04/To-Do-List-App"
+    },
+    {
+      "id": 3,
+      "title":  "Currency Converter",
+      "type": "Frontend",
+      "category": "Web Apps",
+      "description": "A modern and responsive Currency Converter application built with HTML, CSS, and JavaScript to help users convert between currencies quickly and efficiently through a simple and user-friendly interface.",
+      "technologies": ["HTML","CSS","JS"],
+      "image": "assets/images/projects/currency-converter.webp",
+      "demoUrl": "https://alimohammed04.github.io/Currency-Converter/",
+      "githubUrl": "https://github.com/alimohammed04/Currency-Converter"
     }
   ]
 }
