@@ -32,6 +32,17 @@
       "image": "assets/images/projects/currency-converter.webp",
       "demoUrl": "https://alimohammed04.github.io/Currency-Converter/",
       "githubUrl": "https://github.com/alimohammed04/Currency-Converter"
-    }
+    },
+    {
+  "id": 4,
+  "title": "Weather Now",
+  "type": "Frontend",
+  "category": "Web Apps",
+  "description": "A modern and responsive weather application built with React that allows users to search for a city or area and view real-time weather information through an API. It supports multilingual translation using i18n and provides a clean user experience with responsive design.",
+  "technologies": ["React", "Tailwind CSS", "i18n", "Font Awesome", "Heroicons", "Weather API"],
+  "image": "assets/images/projects/weather-now.webp",
+  "demoUrl": "https://weathert1app.netlify.app/",
+  "githubUrl": "https://github.com/alimohammed04/Weather-App"
+}
   ]
 }
